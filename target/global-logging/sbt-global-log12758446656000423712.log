@@ -1,0 +1,96 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.0 (Oracle Corporation Java 17.0.9)
+[debug] Load.defaultLoad until apply took 102.580314ms
+[debug]           Load.loadUnit: plugins took 78.506352ms
+[debug]           Load.loadUnit: defsScala took 0.23661ms
+[debug] [Loading] Scanning directory /Users/vinodh/IdeaProjects/akka-project/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/vinodh/IdeaProjects/akka-project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 16.533334 ms
+[debug]               Load.resolveProject(akka-project-build) took 41.414208ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id akka-project-build, base: /Users/vinodh/IdeaProjects/akka-project/project, plugins: List(<none>))) took 77.214195ms
+[debug] [Loading] Done in /Users/vinodh/IdeaProjects/akka-project/project, returning: (akka-project-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 93.987124ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.252119ms
+[debug]         Load.loadUnit(file:/Users/vinodh/IdeaProjects/akka-project/project/, ...) took 178.291475ms
+[debug]       Load.apply: load took 5704.204983ms
+[debug]       Load.apply: resolveProjects took 5.823712ms
+[debug]       Load.apply: finalTransforms took 63.371183ms
+[debug]       Load.apply: config.delegates took 6.809233ms
+[debug]       Load.apply: Def.make(settings)... took 415.747088ms
+[debug]       Load.apply: structureIndex took 106.439732ms
+[debug]       Load.apply: mkStreams took 1.909751ms
+[info] loading project definition from /Users/vinodh/IdeaProjects/akka-project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 7852.220432ms
+[debug]     Load.loadUnit: defsScala took 0.003935ms
+[debug] [Loading] Scanning directory /Users/vinodh/IdeaProjects/akka-project
+[debug]       Load.loadUnit: mkEval took 3.980567ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.110915 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.092215ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /Users/vinodh/IdeaProjects/akka-project, plugins: List(<none>))) took 5.049369ms
+[debug] [Loading] Done in /Users/vinodh/IdeaProjects/akka-project, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2202.287326ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.531504ms
+[debug]   Load.loadUnit(file:/Users/vinodh/IdeaProjects/akka-project/, ...) took 10059.426947ms
+[debug] Load.apply: load took 10078.858815ms
+[debug] Load.apply: resolveProjects took 0.101621ms
+[debug] Load.apply: finalTransforms took 12.769141ms
+[debug] Load.apply: config.delegates took 0.397243ms
+[debug] Load.apply: Def.make(settings)... took 90.953791ms
+[debug] Load.apply: structureIndex took 44.369136ms
+[debug] Load.apply: mkStreams took 0.001971ms
+[info] set current project to akka-project (in build file:/Users/vinodh/IdeaProjects/akka-project/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] 
+[info] Here are some highlights of sbt 1.10.0:
+[info]   - SIP-51 support for Scala 2.13 evolution
+[info]   - Various Zinc fixes
+[info]   - ConsistentAnalysisFormat: new Zinc Analysis serialization
+[info]   - CommandProgress API
+[info] See https://eed3si9n.com/sbt-1.10.0 for full release notes.
+[info] Hide the banner for this release by running `skipBanner`.
+[info] sbt server started at local:///Users/vinodh/.sbt/1.0/server/f4722fac71dc84619022/sock
+[debug] Writing bsp connection file
+[info] started sbt server
